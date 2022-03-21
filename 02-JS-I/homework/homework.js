@@ -94,6 +94,8 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num > 50) {
+    return true
+  }else{
     return false
   }
 }
@@ -195,7 +197,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola" + nombre + "!"
+  return "Hola" +' '+ nombre + "!"
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
